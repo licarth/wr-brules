@@ -71,7 +71,7 @@ var rules = [
         "condition": function(R) {
           R.when(
             this &&
-            _.has(this.order.basket, 'comprehenssive_first_aid_training') &&
+            _.has(this.order.basket, 'comprehensive_first_aid_training') &&
             !_.has(this.order.basket, 'basic_first_aid_training')
           );
         },
