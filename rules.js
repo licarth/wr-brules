@@ -96,7 +96,7 @@ var rules = [
             this.services.partners.generateComissionPayment(
               this.order.referer_partner,
               this.order.total,
-              0.20)
+              0.25)
             );
             R.next();
           }
